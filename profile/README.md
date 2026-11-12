@@ -15,5 +15,3 @@
 | [`coolconnections_v3`](https://github.com/SergeyBurtsev/coolconnections_v3) | Публичный сайт CoolConnections |
 | [moscow.theatrehd.com](https://moscow.theatrehd.com) | TheatreHD: афиша и показы спектаклей в кино (региональные сайты) |
 | [operahd.ru](https://operahd.ru/) | OperaHD: трансляции и записи оперных спектаклей |
-
-Общая PostgreSQL живёт в `coolconnections_ii`; публичные сайты читают каталог через `II_DATABASE_URL`.
