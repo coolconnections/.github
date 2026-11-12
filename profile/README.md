@@ -1,0 +1,19 @@
+# CoolConnections
+
+Российское арт-объединение и кинопрокатчик. Организуем национальные и тематические кинофестивали, артхаусные показы, а также трансляции и записи спектаклей — в том числе проект [TheatreHD](https://www.coolconnections.ru/).
+
+Сайт: [coolconnections.ru](https://www.coolconnections.ru/)
+
+---
+
+## Проекты
+
+| Репозиторий / продукт | Назначение |
+|-----------------------|------------|
+| [`coolconnections_ii`](https://github.com/SergeyBurtsev/coolconnections_ii) | Внутренняя админка: каталог фильмов и видео, проекты, сеансы, дистрибьюция, бухгалтерия. Источник данных для публичных сайтов |
+| [`coolconnections_dcp`](https://github.com/SergeyBurtsev/coolconnections_dcp) | Кинопоказы, DCP/KDM, доставка дисков и ссылок кинотеатрам |
+| [`coolconnections_v3`](https://github.com/SergeyBurtsev/coolconnections_v3) | Публичный сайт CoolConnections |
+| [moscow.theatrehd.com](https://moscow.theatrehd.com) | TheatreHD: афиша и показы спектаклей в кино (региональные сайты) |
+| [operahd.ru](https://operahd.ru/) | OperaHD: трансляции и записи оперных спектаклей |
+
+Общая PostgreSQL живёт в `coolconnections_ii`; публичные сайты читают каталог через `II_DATABASE_URL`.
